@@ -5,7 +5,7 @@ Simple, configurable and easy-to-use patching script for existing srceng-mod-lau
 We were just too dump to figure out build the app ourselves ¯\_(ツ)_/¯.
 
 # How to use
-Simply fork this repo and change `config.json` and `logo.png` files to your liking. Then run `patch.sh` shell script. `patch.sh` automatically downloads APKTool, official version of Source Engine launcher from nillerusr and Uber APK Patcher and removes them afterwards.
+Simply fork this repo, put your mods libraries in `lib/` and change `config.json` and `logo.png` files to your liking. Then run `patch.sh` shell script. `patch.sh` automatically downloads APKTool, official version of Source Engine launcher from nillerusr and Uber APK Patcher and removes them afterwards.
 
 # Example use cases
 - GitHub Actions/CI
