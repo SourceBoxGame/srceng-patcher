@@ -1,5 +1,5 @@
 {
 	"title": "SourceBox",
 	"appid": "com.sourcebox.launcher",
-	"default_arguments": "-console -game sourcebox -nobackgroundlevel -dev +developer 4"
+	"default_arguments": "-console -game sourcebox -nobackgroundlevel"
 }
