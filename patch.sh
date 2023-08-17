@@ -11,6 +11,8 @@ cp -r ./lib/* ./extracted/lib
 sed -i "s/Source Engine/$(cat config.json | jq .title -r)/g" ./extracted/res/values/strings.xml
 sed -i "s/com.valvesoftware.source/$(cat config.json | jq .appid -r)/g" ./extracted/AndroidManifest.xml
 sed -i "s/-console/$(cat config.json | jq .default_arguments -r)/g" ./extracted/smali/me/nillerusr/LauncherActivity.smali
+sed -i "s/$(echo "/srceng")/$(cat config.json | jq .default_path -r)/g" ./extracted/smali/com/valvesoftware/ValveActivity2.smali
+sed -i "s/hl2/$(cat config.json | jq .gamepath -r)/g" ./extracted/smali/com/valvesoftware/ValveActivity2.smali
 
 mkdir -p ./extracted/res/drawable ./extracted/res/drawable-hdpi ./extracted/res/drawable-hdpi-v4 ./extracted/res/drawable-xhdpi ./extracted/res/drawable-xhdpi-v4 ./extracted/res/drawable-xxhdpi ./extracted/res/drawable-xxhdpi-v4 ./extracted/res/drawable-xxxhdpi ./extracted/res/drawable-xxxhdpi-v4
 
