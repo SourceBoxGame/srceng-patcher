@@ -26,6 +26,8 @@ convert logo.png -resize 144x144 ./extracted/res/drawable-xxhdpi-v4/ic_launcher.
 convert logo.png -resize 192x192 ./extracted/res/drawable-xxxhdpi/ic_launcher.png
 convert logo.png -resize 192x192 ./extracted/res/drawable-xxxhdpi-v4/ic_launcher.png
 
+cp -r ./res/* ./extracted/res
+
 echo "Packaging"
 java -jar ./apktool_2.8.1.jar b ./extracted -o ./patched.apk
 java -jar ./uber-apk-signer-1.3.0.jar -a ./patched.apk -o ./
