@@ -1,44 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="last_commit" />
-    <string name="deploy_branch" />
-    <string name="srceng_launcher_about">About</string>
-    <string name="srceng_launcher_about_text">"
-Thanks to nillerusr and jusic for port
-valve for source engine
+<?xml version="1.0" encoding="utf-8"?> <resources> <string name="last_commit"/> <string name="deploy_branch"/>
+<string name="srceng_launcher_about">O aplikacji</string>
 
-Not for commercial use!
-Contact Us: unknownandlost11@gmail.com
+<string name="srceng_launcher_about_text">
+"Dziękujemy nillerusr i jusic za portowanie
 
-Donate: https://new.donatepay.ru/@nillerusr
+valve za silnik source
+
+Nie do użytku komercyjnego!
+
+Kontakt: unknownandlost11@gmail.com
+
+Dotacje: https://new.donatepay.ru/@nillerusr
+
 BTC(Bitcoin): bc1qnjq92jj9uqjtafcx2zvnwd48q89hgtd6w8a6na
-XMR(Monero): 48iXvX61MU24m5VGc77rXQYKmoww3dZh6hn7mEwDaLVTfGhyBKq2teoPpeBq6xvqj4itsGh6EzNTzBty6ZDDevApCFNpsJg"</string>
-    <string name="srceng_launcher_launch"></string>
-    <string name="srceng_launcher_ok">OK</string>
-    <string name="srceng_launcher_set">SET</string>
-    <string name="srceng_launcher_error">Error</string>
-    <string name="srceng_launcher_error_missing_obb_a">There are no</string>
-    <string name="srceng_launcher_error_missing_obb_b">files on the path</string>
-    <string name="srceng_launcher_error_test_write">Test write failed, all files will be stored in</string>
-    <string name="srceng_launcher_error_no_permission">"Without permissions game won't work"</string>
-    <string name="srceng_launcher_error_find_gameinfo">"Couldn't find game resources. Did you set the path correctly?"</string>
-    <string name="srceng_launcher_command_args">Command-line arguments</string>
-    <string name="srceng_launcher_env">Env</string>
-    <string name="srceng_launcher_game_path">Path to game resources</string>
-    <string name="srceng_launcher_set_game_path">Set game directory</string>
-    <string name="srceng_launcher_game_menu">Game</string>
-    <string name="srceng_launcher_touch_controls">Show touch controls</string>
-    <string name="srceng_launcher_volume_buttons">Use volume buttons</string>
-    <string name="srceng_launcher_volume_buttons_desc">Volume up button can bound as L_TRIGGER, and volume down as R_TRIGGER!!!</string>
-    <string name="srceng_launcher_check_updates">Check updates</string>
-    <string name="srceng_launcher_immersive_mode">Immersive mode</string>
-    <string name="srceng_launcher_screen_resolution">Fixed screen resolution</string>
-    <string name="srceng_game_hl2">Half-Life 2</string>
-    <string name="srceng_game_hl2ep1">Half-Life 2 Episode 1</string>
-    <string name="srceng_game_hl2ep2">Half-Life 2 Episode 2</string>
-    <string name="srceng_game_portal">Portal</string>
-    <string name="srceng_dir_choice_btn">Set current directory</string>
-    <string name="srceng_update">Update avalible!</string>
-    <string name="srceng_launcher_error_find_platform">platform directory is missing!</string>
-    <string name="srceng_app_name">Source Engine</string>
+
+XMR(Monero): 48iXvX61MU24m5VGc77rXQYKmoww3dZh6hn7mEwDaLVTfGhyBKq2teoPpeBq6xvqj4itsGh6EzNTzBty6ZDDevApCFNpsJg" </string>
+
+<string name="srceng_launcher_launch">Uruchom</string>
+
+<string name="srceng_launcher_ok">OK</string>
+
+<string name="srceng_launcher_set">USTAW</string>
+
+<string name="srceng_launcher_error">Błąd</string>
+
+<string name="srceng_launcher_error_missing_obb_a">Brak plików</string>
+
+<string name="srceng_launcher_error_missing_obb_b">w podanej lokalizacji</string>
+
+<string name="srceng_launcher_error_test_write">Test zapisu nieudany, wszystkie pliki zostaną zapisane w</string>
+
+<string name="srceng_launcher_error_no_permission">"Bez uprawnień gra nie zadziała"</string>
+
+<string name="srceng_launcher_error_find_gameinfo">"Nie można odnaleźć zasobów gry. Czy ścieżka została ustawiona poprawnie?"</string>
+
+<string name="srceng_launcher_command_args">Argumenty wiersza poleceń</string>
+
+<string name="srceng_launcher_env">Środowisko</string>
+
+<string name="srceng_launcher_game_path">Ścieżka do zasobów gry</string>
+
+<string name="srceng_launcher_set_game_path">Ustaw katalog gry</string>
+
+<string name="srceng_launcher_game_menu">Gra</string>
+
+<string name="srceng_launcher_touch_controls">Pokaż kontrolki dotykowe</string>
+
+<string name="srceng_launcher_volume_buttons">Użyj przycisków głośności</string>
+
+<string name="srceng_launcher_volume_buttons_desc">Przycisk głośniej może pełnić funkcję L_TRIGGER, a przycisk ciszej jako R_TRIGGER!</string>
+
+<string name="srceng_launcher_check_updates">Sprawdź aktualizacje</string>
+
+<string name="srceng_launcher_immersive_mode">Tryb pełnoekranowy</string>
+
+<string name="srceng_launcher_screen_resolution">Stała rozdzielczość ekranu</string>
+
+<string name="srceng_game_hl2">Half-Life 2</string>
+
+<string name="srceng_game_hl2ep1">Half-Life 2 Episode 1</string>
+
+<string name="srceng_game_hl2ep2">Half-Life 2 Episode 2</string>
+
+<string name="srceng_game_portal">Portal</string>
+
+<string name="srceng_dir_choice_btn">Ustaw bieżący katalog</string>
+
+<string name="srceng_update">Dostępna aktualizacja!</string>
+
+<string name="srceng_launcher_error_find_platform">brak katalogu platform!</string>
+
+<string name="srceng_app_name">Silnik Source</string>
+
 </resources>
