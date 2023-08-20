@@ -70,6 +70,6 @@ XMR(Monero): 48iXvX61MU24m5VGc77rXQYKmoww3dZh6hn7mEwDaLVTfGhyBKq2teoPpeBq6xvqj4i
 
 <string name="srceng_launcher_error_find_platform">brak katalogu platform!</string>
 
-<string name="srceng_app_name">Silnik Source</string>
+<string name="srceng_app_name">SourceBox</string>
 
 </resources>
